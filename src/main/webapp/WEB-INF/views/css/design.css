@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.dhx_demo-grid .remove-button {
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.dhx_demo-grid .remove-button .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/6815/6815089.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.dhx_demo-button {
+    all: initial;
+    position: absolute;
+    bottom: 48px;
+    right: 48px;
+    width: 160px;
+    height: 32px;
+    color: #fff;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dhx_demo-button__icon {
+    align-self: center;
+}
+
+.dhx_demo-button__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-left: 4px;
+    align-self: center;
+}
